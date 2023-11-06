@@ -1,0 +1,55 @@
+*{
+    background-color: grey;
+}
+div{
+    height: 30px;
+    width: 160px;
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-items: center; 
+    text-align: center;
+}
+.display{
+    background-color: white;
+    color: black;
+    display: flex;
+    padding-left: 100px;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100px;
+    font-stretch: condensed;
+}
+.Button{
+    background-color: teal;
+    color: white;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button:hover{
+    background-color: brown;
+
+}
+button{
+    height: 30px;
+    width: 160px;
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-items: center;
+    border-style: none;
+}
+button:hover{
+    background-color: darkgrey;
+}
+.operator{
+    background-color: rgb(155, 140, 140);
+}
+.operator:hover{
+    background-color: darkgrey;
+}
